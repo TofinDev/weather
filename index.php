@@ -1,11 +1,5 @@
 <?php    header ('Content-type: text/html; charset=utf-8');
 
-     
-      
-      
- 
-   
-  
         $ch = curl_init(); 
 
         // set url สำหรับดึงข้อมูล 
@@ -17,9 +11,6 @@
         // ตัวแปร $output เก็บข้อมูลทั้งหมดที่ดึงมา 
         $output = curl_exec($ch); 
         
-     
-   
-
         // ปิดการเชื่อต่อ
         curl_close($ch);    
         // output ออกไปครับ
@@ -27,7 +18,6 @@
         
        
                  
-          
-
+  
 
 ?>
