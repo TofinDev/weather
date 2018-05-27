@@ -5,10 +5,10 @@ echo "<br>";
 $json = file_get_contents('http://data.tmd.go.th/api/WeatherToday/V1/?type=json');
 $obj = json_decode($json);
 
-print_r($obj);
+//print_r($obj);
 
-//echo $obj->timeFrameStart;
-//echo $obj->Stations[0]->Temperature;
-//echo "<br>";
+echo $obj->timeFrameStart;
+echo $obj->Stations[0]->Temperature;
+echo "<br>";
 
 ?>
