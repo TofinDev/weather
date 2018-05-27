@@ -7,7 +7,7 @@ $obj = json_decode($json);
  
 //print_r($obj);
   
-echo $json['StationNameTh']['Province'];
+echo $json->StationNameTh;
 
 echo "ติดต่อไม่ได้";
 echo "<br>";
