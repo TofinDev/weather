@@ -5,10 +5,8 @@ $obj = json_decode($json);
 
 //print_r($obj);
 
-foreach (&obj as &obj) {
 echo $obj->StationNameTh;
 echo $obj->Stations[0]->Temperature;
-    echo "<br>";
-} 
+echo "<br>";
 
 ?>
