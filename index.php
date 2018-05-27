@@ -2,7 +2,7 @@
 echo "Web alrady now";
 echo "<br>";
 
-$json = file_get_contents('http://api.football-data.org/v1/fixtures');
+$json = file_get_contents('http://data.tmd.go.th/api/WeatherToday/V1/?type=json');
 $obj = json_decode($json);
 
 print_r($obj);
