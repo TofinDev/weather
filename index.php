@@ -2,7 +2,7 @@
 echo "Web alrady now";
 echo "<br>";
 
-$json = file_get_contents('http://www.set.or.th/th/products/isv/isv_p1');
+$json = file_get_contents('http://www.set.or.th/th/products/isv');
 $obj = json_decode($json);
 
 print_r($obj);
