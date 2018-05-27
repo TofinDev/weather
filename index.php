@@ -4,6 +4,6 @@ $obj = json_decode($json);
 
 //print_r($obj);
 
-echo $obj->StationNameTh;
+echo $obj->LastBuiltDate;
 
 ?>
